@@ -94,3 +94,12 @@ p{
 .fonth1{
     font-size: 40px;
 }
+.exp-title{
+    border-left: 10px solid red;
+    padding: 5px;
+    margin-left: 5px;
+    background-color: #d4d0d0;
+    border-radius: 0px 17px;
+    /* border-radius: 0px 7px 7px 0px; */
+    
+}
