@@ -79,11 +79,13 @@ h1{
 .half-width3{
     width: 40%;
     float: left;
-    background-color: hsl(0, 14%, 95%);
     padding: 0px 10px;
     margin: 5%;
     border-radius: 5px;
     box-shadow: 10px 10px 40px black;
+    border-left: 5px solid;
+    border-image: linear-gradient(90 deg blue  rgb(2, 225, 255));
+    border-image-slice: 1;
 }
 p{
     text-align: justify;
@@ -96,10 +98,19 @@ p{
 }
 .exp-title{
     border-left: 10px solid red;
-    padding: 5px;
+    padding: 5px 7px;
     margin-left: 5px;
     background-color: #d4d0d0;
-    border-radius: 0px 17px;
-    /* border-radius: 0px 7px 7px 0px; */
-    
+    border-radius: 0px 17px;    
+}
+.third-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center ;
+}
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: darkolivegreen;
+    color: white;
 }
