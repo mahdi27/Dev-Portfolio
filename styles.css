@@ -108,9 +108,18 @@ p{
     background-repeat: no-repeat;
     background-position: left center ;
 }
-footer{
+footer {
+        text-align: center;
+        padding: 30px 0px 10px 0px;
+        margin-bottom: 0px;
+        background-color: darkolivegreen;
+        color: white;
+}
+footer p{
     text-align: center;
-    padding: 3px;
-    background-color: darkolivegreen;
-    color: white;
+    margin: 0px; 
+}
+footer a{
+    text-decoration: none;
+    color: orange;
 }
